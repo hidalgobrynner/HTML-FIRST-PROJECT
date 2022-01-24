@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Page tittle (shown on browser tab) -->
+	<title>Member Sign Up Page </title>
+
+</head>
+
+
+<body>
+
+	<!-- Hyperlinks -->
+	<strong>
+		<a href="firstproject.html">Main Page</a>&ensp;
+		<a href="https://twitter.com/brynnerh_">Twitter</a>&ensp;
+		<a href="https://www.instagram.com/brynnerh_">Instagram</a>
+	</strong> 
+
+	<br>
+
+	<center>
+
+	<!-- Heading  -->
+		<h1> Registration Form</h1>
+
+	<!-- Creating a registration form -->
+
+		<form method="get"> 
+	
+	<!-- text input -->
+		First Name: <input type="text" name="firstname" required> <br><br>
+	
+		Last Name:  <input type="text" name="lastname" required> <br><br>
+	
+	<!-- Radio button. Once the radio group has be created, selecting any radio button in that group automatically deselects any other selected radio button in the same group. You can have as many radio groups on a page as you want, as long as each group has its own name. -->
+		Gender: <br> 
+		<input type="radio" name="Gender" value="male"> Male &ensp;
+		<input type="radio" name="Gender" value="female"> Female &ensp; 
+		<input type="radio" name="Gender" value="other"> Other &ensp; <br><br>
+
+	<!-- date input. inserts a calendar -->
+		DOB: <input type="date" name="Date of Birth"> <br><br>
+	
+	<!-- Email input. requires users to input valid email containing "@" -->
+		E-mail: <input type="email" name="email" required> <br><br>
+
+	<!-- Another text input just like the "first and last name" -->
+		Username: <input type="text" name="username" required> <br><br>
+
+	<!-- password input -->
+		Password: <input type="password" name="password" min="5" max="20" required> <br><br>
+		
+		 <br>
+
+	<!-- Creating a drop down menu -->
+		Coding Experience: 
+		<select name="coding experience">
+			<option value="None" name="none"> None </option>
+			<option value="Beginner" name="Beginner"> Beginner </option>
+			<option value="Intermediate" name="Intermediate"> Intermediate </option>
+			<option value="Advanced" name="Advanced"> Advanced </option>
+			<option value="Godly" name="Godly"> Godly </option>
+		</select> <br><br>
+
+	<!-- Creating checkbox input -->
+		What computer languages do you know? <br><br>
+
+		<input type="checkbox" name="C#"> C# <br>
+		<input type="checkbox" name="C++"> C++ <br>
+		<input type="checkbox" name="Java"> Java <br>
+		<input type="checkbox" name="Python"> Python  <br>
+		<input type="checkbox" name="Javascript"> Javascript <br>
+		<input type="checkbox" name="other"> Other: <input type="text" name="other"><br><br><br>
+
+	<!-- Submit and reset buttons (with alert) -->
+		<input type="submit" name="" value="Register" onclick="alert('Your form has been submitted!')"> &emsp;
+		<input type="reset" name=""> <br><br><br>
+
+	<!-- Extra buttons to redirect users to sign in page  -->
+		Already have an account? Click here to sign in now!</p>
+		<a href="member log in.html"> <button type="button"> Sign In </button> </a>
+
+		</form>
+
+	</center>	
+
+
+</body>
+
+</html>
